@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Elements Web App</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <script type="module" src="components/header.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <script type="module" src="components/main.js"></script>
+  <script type="module" src="components/menu.js"></script>
+  <script type="module" src="components/socialProfile.js"></script>
+  <script type="module" src="components/customTable.js"></script>
+  <script type="module" src="components/gallery.js"></script>
+</head>
+<body>
+  <app-header></app-header>
+  <app-menu></app-menu>
+  <app-main>
+    <social-profile slot="page"></social-profile>
+    <custom-table slot="page"></custom-table>
+    <gallery-page slot="page"></gallery-page>
+  </app-main>
+  <app-footer></app-footer>
+</body>
+</html>
