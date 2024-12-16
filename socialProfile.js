@@ -22,7 +22,7 @@ export class SocialProfile extends HTMLElement {
           }
         </style>
         <div class="profile">
-          <img src="img/Uno.jpg" alt="Imagen de perfil">
+          <img src="Uno.jpg" alt="Imagen de perfil">
           <h2>Perfil de usuario</h2>
           <p>Nombre: Alex Quishpe Salgado</p>
           <p>Teléfono: 0991234567</p>
